@@ -1,7 +1,8 @@
 
-1. Install the Blockchain Environment
+<H5>1. Install the Blockchain Environment<H5>
    
 Install the private blockchain Ganache and start it, then import the truffle configuration file truffle-config.js into the Ganache and restart Ganache:
+
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/316b467b-c272-4905-9d6b-c3eb123544a6)
 
 
@@ -117,5 +118,6 @@ Customers can access relevant information about their product orders on the bloc
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/33ede883-80d5-4083-9da6-5773e63ee027)
 
 The Trace Management Module also includes the Chatbot feature, which allows customers to track products and report any issues about the product:
+
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/785b95d0-88e2-426d-a779-48abe065ed37)
 
