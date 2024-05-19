@@ -74,6 +74,7 @@ Import this private key to MetaMask to create a new account in MetaMask and conn
 
 ## 4. System Operation Instruction
 Log in to the system by default with the user name “sa” and password “12345678”, select the role “Administrator”. After entering the system, users could operate the relative modules according to their roles. The administrator can operate all the functions:
+
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/59f733d0-28ea-414e-acaa-2b75189d0f8c)
 
 ### 4.1 Administration Management Module
