@@ -2,7 +2,7 @@
 1. Install the Blockchain Environment
    
 Install the private blockchain Ganache and start it, then import the truffle configuration file truffle-config.js into the Ganache and restart Ganache:
- ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/316b467b-c272-4905-9d6b-c3eb123544a6)
+![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/316b467b-c272-4905-9d6b-c3eb123544a6)
 
 
 In Visual Studio Code, open the Truffle project “TRUFFLRSCF”. To deploy all the smart contracts to Ganache, in the terminal, run the command: truffle migrate --reset:
