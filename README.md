@@ -1,17 +1,4 @@
-Table of Content
-1. Install the Blockchain Environment	3
-2. Install the Back-end Environment	4
-3. Install the Front-end Environment	8
-4. System Operation Instruction	11
-4.1 Administration Management Module	11
-4.2 Category Management Module	12
-4.2 Product Management Module	13
-4.3 Order Management Module	14
-4.4 Document Management Module	15
-4.6 Trace Management Module	16
 
-
- 
 1. Install the Blockchain Environment
 Install the private blockchain Ganache and start it, then import the truffle configuration file truffle-config.js into the Ganache and restart Ganache:
  ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/316b467b-c272-4905-9d6b-c3eb123544a6)
