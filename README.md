@@ -114,6 +114,7 @@ To determine whether the file has been altered, customers can compare the hash c
  
 ### 4.6 Trace Management Module
 Once the consumer has entered the product's unique serial number, they can obtain detailed information about it on the blockchain:
+
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/2ef41035-05c1-4a45-8f99-a9ea21eb955c)
 
 Customers can access relevant information about their product orders on the blockchain by clicking the button “related orders”:
