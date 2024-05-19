@@ -1,5 +1,6 @@
+# Retail Supply Chain System Handbook
 
-<H5>1. Install the Blockchain Environment<H5>
+## 1. Install the Blockchain Environment
    
 Install the private blockchain Ganache and start it, then import the truffle configuration file truffle-config.js into the Ganache and restart Ganache:
 
@@ -13,7 +14,7 @@ Install MetaMask, create a new account to log in, and open it in the browser:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/b661e362-3822-495f-930e-95ba3461a991)
 
  
-2. Install the Back-end Environment
+## 2. Install the Back-end Environment
    
 Install MySQL Server 8.1.0:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/315bee55-5e4b-45ed-a5c3-2de2270a79cc)
@@ -44,7 +45,7 @@ To start the back-end server, in the terminal, run the command: flask run:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/39e36441-7620-4848-82ed-b3a343b34708)
 
 
-3. Install the Front-end Environment
+## 3. Install the Front-end Environment
 Get the address of the smart contract “SupplyChainRSCF” in Ganache:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/58e29a5c-1308-447c-b3f4-86e9c377fc0a)
 
@@ -71,46 +72,46 @@ Import this private key to MetaMask to create a new account in MetaMask and conn
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/d5c2eca4-6917-4a59-9f8c-28c2ae2e58f3)
 
 
-4. System Operation Instruction
+## 4. System Operation Instruction
 Log in to the system by default with the user name “sa” and password “12345678”, select the role “Administrator”. After entering the system, users could operate the relative modules according to their roles. The administrator can operate all the functions:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/59f733d0-28ea-414e-acaa-2b75189d0f8c)
 
-4.1 Administration Management Module
+### 4.1 Administration Management Module
 The category management module can add users:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/4d967005-df5a-4ceb-a69b-4af639f6bba9)
 
 Customers can search for user information by the Web page:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/cc2e1c98-cce3-4451-a51f-a4f6fe256cdf)
  
-4.2 Category Management Module
+### 4.2 Category Management Module
 The category management module can add categories according to similar features of products:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/ab1ace0a-4d03-495f-a042-72e8872d1d11)
 
 Users can search for category information by clicking the button “Category List” :
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/41c7c1a6-f5d3-4412-a604-f6b1a86982a4)
  
-4.2 Product Management Module 
+### 4.3 Product Management Module 
 System users can have permission to add product details according to their roles. The product base information is stored in the blockchain network through the smart contract to track the product information in the system.
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/e44b75e7-3df1-43a2-988e-f51211e568a6)
  
 Users can search for product information by clicking the button “Product List” : 
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/d925de62-2ca0-4ffd-bad6-e23fb3723ca7)
 
-4.3 Order Management Module 
+### 4.4 Order Management Module 
 All the users could create an order in this module:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/c5e4edcb-a4e7-4a4a-8123-423396ed2800)
 
 Users can search for the order information after adding it:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/4053abcd-040e-4144-98fd-f8143c9dba37)
 
-4.4 Document Management Module
+### 4.5 Document Management Module
 In the document management module, financial files could be uploaded to the system:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/b3111544-7187-46e7-86cb-febf801de939)
 
 To determine whether the file has been altered, customers can compare the hash codes stored in the MySQL database and on the blockchain on the following page:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/ac132cab-65fc-4236-8eab-1e00aee17f9d)
  
-4.6 Trace Management Module
+### 4.6 Trace Management Module
 Once the consumer has entered the product's unique serial number, they can obtain detailed information about it on the blockchain:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/2ef41035-05c1-4a45-8f99-a9ea21eb955c)
 
