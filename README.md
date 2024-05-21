@@ -13,6 +13,9 @@ In Visual Studio Code, open the Truffle project “TRUFFLRSCF”. To deploy all 
 Install MetaMask, create a new account to log in, and open it in the browser:
 ![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/b661e362-3822-495f-930e-95ba3461a991)
 
+Add the Ganache network to MetaMask:
+![image](https://github.com/sharriewang2022/IT902---RSCF-system/assets/132410296/aa0e4280-6432-475a-8378-fc5c6e19b059)
+
  
 ## 2. Install the Back-end Environment
    
